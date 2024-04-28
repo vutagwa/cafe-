@@ -72,7 +72,6 @@ ul li a:hover::after{
 }
 button{
     display: inline;
-    margin: 3px;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 10px;
