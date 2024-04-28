@@ -9,28 +9,37 @@
 .login{
     display: inline-block;
     padding-left: 50px;
-    padding-right: 150px;
+    padding-right: 100px;
     padding-top: 30px;
-    padding-bottom: 150px;
+    padding-bottom: 90px;
     background-color: rgb(249, 246, 242);
     align-self: center;
     border-radius: 15px;
     align-items: center;
     justify-content: space-between;
-    margin-left: 300px;
+    margin-top: 50px;
+    margin-left: 500px;
 }
 .login img{
-    width: 90px;
-    border-radius: 90px;
-    margin-left: 90px;
+    width: 60px;
+    border-radius: 58px;
+    margin-left: 130px;
     margin-top: -900px;
 
 }
+.forms{
+    margin-top: 90px;
+}
+h2{
+    color: rgb(128, 123, 97);
+    font-size: 50px;
+    text-align: center;
+}
 .login .b1{
     display: block;
-    margin: 10px;
+    margin-top: 18px;
     border-radius: 3px;
-    padding: 5px;
+    padding-right: 75px;
     color: gray;
     border-style: solid;
     background-color: transparent;
@@ -41,7 +50,8 @@
 
 }
 .login .sub{
-    padding: 6px;
+    padding: 10px;
+    margin-left: 100px;
     background-color: blue;
     color: white;
     font-weight: bold;
