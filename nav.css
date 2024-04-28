@@ -3,6 +3,9 @@
     padding: 0;
     background: rgb(243, 242, 241);
 }
+#home{
+    height: 698px;
+}
 nav{
     background-color: transparent;
     display: flex;
@@ -124,4 +127,33 @@ button:hover{
     color: white;
     font-weight: 600;
     font-size: 16px;
+}
+.menu{
+    display: inline-block;
+    column-gap: 33.33%;
+}
+.menuitems{
+    display: inline-block;
+    margin-left: 19px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+
+}
+.menu .pic img{
+    width: 300px;
+    height: 300px;
+}
+.menuitems .content p{
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+    padding-left: 130px;
+}
+.menuitems .content button{
+    align-items: center;
+    justify-content: center;
+    margin-left: 95px;
+    
 }
