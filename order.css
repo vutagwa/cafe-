@@ -1,0 +1,21 @@
+.options{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.checkout-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #c4a43b;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: .15 ease-in-out;
+    font-size: 18px;
+    font-weight: 600;
+}
+.checkout-button:hover {
+    opacity: .6;    
+}

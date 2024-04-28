@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+    <link rel="stylesheet" href="/order.css">
+    <title>Checkout</title>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="options">
+                <h2>Payment Options</h2>
+                <div class="payment-option">
+                    <input type="radio" name="payment" id="creditCard" value="creditCard">
+                    <label for="creditCard">Credit Card</label>
+                    <div class="details">
+                        <p>Enter credit card details:</p>
+                        <input type="text" placeholder="Card Number">
+                        <input type="text" placeholder="Expiration Date">
+                        <input type="text" placeholder="CVV">
+                    </div>
+                </div>
+                <div class="payment-option">
+                    <input type="radio" name="payment" id="paypal" value="paypal">
+                    <label for="paypal">PayPal</label>
+                    <div class="details">
+                        <p>Login to your PayPal account:</p>
+                        <input type="email" placeholder="PayPal Email">
+                        <input type="password" placeholder="Password">
+                    </div>
+                </div>
+                <div class="payment-option">
+                    <input type="radio" name="payment" id="mpesa" value="mpesa" checked>
+                    <label for="mpesa">M-Pesa</label>
+                    <div class="details">
+                        <p>Enter M-Pesa details:</p>
+                        <!-- M-Pesa Payment Details -->
+                        <input type="text" placeholder="Phone Number">
+                        <input type="text" placeholder="PIN">
+                    </div>
+                </div>
+                <button class="checkout-button" onclick="confirmPayment()">Checkout</button>
+            </div>
+            <div class="payment-details">
+                <h2>Payment Details</h2>
+                <!-- Display Payment Details -->
+                <p>Total Amount: $100</p>
+            </div>
+        </div>
+    </section>
+    <script>
+        function confirmPayment() {
+            alert("Payment confirmed!");
+        }
+    </script>
+</body>
+</html>

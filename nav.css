@@ -1,7 +1,9 @@
 *{
     margin: 0;
     padding: 0;
-    background: rgb(243, 242, 241);
+    background: rgb(239, 230, 221);
+    font-family: Arial, sans-serif;
+
 }
 #home{
     height: 698px;
@@ -156,4 +158,34 @@ button:hover{
     justify-content: center;
     margin-left: 95px;
     
+}.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+.options {
+    width: 45%;
+}
+.payment-details {
+    width: 45%;
+    background-color: rgb(211, 144, 44);
+}
+.payment-option {
+    margin-bottom: 10px;
+    display: none;
+}
+.payment-option input:checked + .details {
+    display: block;
+}
+.checkout-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.checkout-button:hover {
+    background-color: #45a049;
 }
