@@ -1,0 +1,59 @@
+.image{
+    display: inline-block;
+}
+.image img{
+    width: 300px;
+    margin-right: 100px;
+
+}
+.login{
+    display: inline-block;
+    padding-left: 50px;
+    padding-right: 150px;
+    padding-top: 30px;
+    padding-bottom: 150px;
+    background-color: rgb(249, 246, 242);
+    align-self: center;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 300px;
+}
+.login img{
+    width: 90px;
+    border-radius: 90px;
+    margin-left: 90px;
+    margin-top: -900px;
+
+}
+.login .b1{
+    display: block;
+    margin: 10px;
+    border-radius: 3px;
+    padding: 5px;
+    color: gray;
+    border-style: solid;
+    background-color: transparent;
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    border-bottom-color: black;
+
+}
+.login .sub{
+    padding: 6px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: opacity .15s;
+    display: block;
+}
+.login .sub:hover{
+    opacity: .5;
+}
+.login a{
+    text-decoration: none;
+}
